@@ -1,0 +1,258 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Root Style */
+:root {
+    --primaryTextColor: #27364D;
+    --secondaryTextColor: #ABAAAA;
+}
+
+.dashboard{
+    display: flex;
+}
+
+.sidebar{
+    background-color: #172b4d;
+    width: 20%;
+}
+
+.content{
+    padding: 50px;
+    background-color: #F6F6F6;
+    min-height: 680px;
+    width: 80%;
+}
+
+.title-page{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.title-page .icon-img-title{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+/* End Root Style */
+
+/* Breadcrumbs Style */
+.breadcrumbs{
+    height: 30px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.breadcrumbs .breadcrumbs-item{
+    float: left;
+}
+
+.breadcrumbs .breadcrumbs-item i{
+    padding-right: 5px;
+    font-size: 10px !important;
+}
+
+.breadcrumbs .breadcrumbs-item.active a{
+    font-weight: bold;
+    color: #448eee !important;
+}
+/* End Breadcrumbs Style */
+
+/* Button Style*/
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+button{
+    padding-top: 0px !important;
+    min-width: 50px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+}
+
+.btn-cs{
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cs.btn-cs-warning{
+    background-color: #ff991f;
+}
+
+.btn-cs:hover.btn-cs-warning{
+    background-color: #eb8d1a;
+}
+
+.btn-cs.btn-cs-primary{
+    background-color: #4a94f8;
+}
+
+.btn-cs:hover.btn-cs.btn-cs-primary{
+    background-color: #448eee;
+}
+
+.btn-cs.btn-cs-success{
+    background-color: #56c991;
+}
+
+.btn-cs:hover.btn-cs.btn-cs-success{
+    background-color: #48bb83;
+}
+
+.btn-cs.btn-cs-danger{
+    background-color: #ff5630;
+}
+
+.btn-cs:hover.btn-cs.btn-cs-danger{
+    background-color: #ec502d;
+}
+/* End Button Style */
+
+/* Card Style */
+.card-cs{
+    width: 100%;
+    min-height: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+
+.card-title-cs{
+    padding-bottom: 5px;
+}
+
+.card-footer-cs{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E4E5E5;
+}
+/* End Card Style */
+
+/* Form Style*/
+.form-cs{
+    width: 100%;
+}
+
+.form-group-cs{
+    margin-top: 10px;   
+    margin-bottom: 20px;   
+}
+
+.label-form-cs{
+    color: var(--parimaryTextColor);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control-cs{
+    border: 1px solid #E4E5E5;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 35px;
+    outline: none;
+}
+/* End Form Style */
+
+/* Sidebar Style*/
+.app-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar-header{
+    display: flex;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.sidebar-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.sidebar-header .name-tag{
+    padding-left: 20px;
+    color: white;
+}
+
+.sidebar-header .name-tag .name{
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+.sidebar-header .name-tag .status{
+    font-size: 12px;
+} 
+
+.sidebar-menu-tag{
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+}
+
+.sidebar-content{
+    width: 100%;
+}
+
+.sidebar-menu{
+    margin-top: 10px;
+    padding-left: 0px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.sidebar-menu-item{
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-top: 20px;
+    display: flex;
+}
+
+.sidebar-menu-item:hover{
+    background-color: #162949;
+}
+
+.sidebar-icon-img{
+    text-align: center;
+    padding-top: 5px;
+    width: 30px;
+    height: 10px;
+    color: white;
+}
+
+.sidebar-text-item{
+    padding-left: 10px;
+}
+
+.sidebar-menu-item.active{
+    padding-left: 11px;
+    border-left: 4px solid white;
+    background-color: #162949;
+}
+/* End Sidebar Style */

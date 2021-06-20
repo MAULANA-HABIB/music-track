@@ -1,0 +1,14 @@
+{
+    "name": "asus/uts-pbwl",
+    "description": "Praktikum Pemrograman Berbasis Web Lanjutan",
+    "type": "project",
+    "require": {
+        "php": "*7.4"
+    },
+    "authors": [
+        {
+            "name": "Maulana",
+            "email": "maulanahabib8634@gmail.com"
+        }
+    ]
+}
